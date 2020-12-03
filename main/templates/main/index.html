@@ -1,0 +1,37 @@
+{% extends 'main/layout.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<!-- ------------------------------------------------------- -->
+<!--  Попробуй это добавить в url: kak_je_xochetsa_kanikuli  -->
+<!-- ------------------------------------------------------- -->
+    <div class="container pt-6">
+        <!-- Content here -->
+        <section>
+            <div class="rus">
+               <div class="book">
+                   <img src="../../static/main/img/russkiy-yazyk-8-klass-razumovskaya.jpg" alt="Русский язык 8 класс Разумовская">
+               </div>
+                <div class="desc">
+                    <snap class="name-book">Русский язык 8 класс</snap><br>
+                    <snap class="author"><b>Авторы: </b>М.М. Разумовская, С.И. Львова, В.И. Капинос, В.В. Львов</snap><br>
+                    <snap class="author"><b>Издательтво: </b>Дрофа 2015-2020</snap><br>
+                    <snap class="author"><b>Тип книги: </b>Учебник</snap>
+                </div>
+            </div>
+            <div class="lit">
+               <div class="book">
+                   <img src="../../static/main/img/russkiy-yazyk-8-klass-razumovskaya.jpg" alt="Литература 8 класс Меркин">
+               </div>
+                <div class="desc">
+                    <snap class="name-book">Литераутра 8 класс</snap><br>
+                    <snap class="author"><b>Авторы: </b>Г.С. Меркин</snap><br>
+                    <snap class="author"><b>Издательтво: </b>Русское слово 2010</snap><br>
+                    <snap class="author"><b>Тип книги: </b>Учебник</snap><br>
+                    <snap class="author"><b>Часть: </b>1, 2</snap>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}
